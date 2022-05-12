@@ -15,7 +15,7 @@ int main()
 		//regex e("[[:w:]]+@[[:w:]]+\.(com.br|br)");//email
 		//regex e("[[:w:]][[:w:]][[:w:]][[:w:]][[:w:]][[:w:]][[:w:]][[:w:]]");//senha de 8 digitos
 		//regex e("[0-9][0-9][0-9].[0-9][0-9][0-9].[0-9][0-9][0-9]-[0-9][0-9]");//cpf
-		//regex e("[[:digit:]]{2}\\s9[[:digit:]]{8}");
+		//regex e("[[:digit:]]{2}\\s9[[:digit:]]{8}");//Telefone
 		//regex e("(([0-9][0-9]/[0-9][0-9]/[0-9][0-9][0-9][0-9])\\s([0-2][0-9]:[0-5][0-9]:[0-5][0-9]))");// data e hora
 		//regex e("[+—]?([0-9]|.)+");// numeros reais
 		//regex e("(HM|MH)(mm*h|hh*m)");//letra a
