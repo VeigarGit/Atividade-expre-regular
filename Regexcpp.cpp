@@ -10,12 +10,11 @@ int main()
 	string str;
 	while (true)
 	{
-		regex e("([A-Z][a-z]+)(\\s)+([A-Z][a-z]+)((\\s)*([A-Z][a-z]+))?"); 
-		//cout << "Expressão Regular: ([A-Z][a-z]+)(\\s)+([A-Z][a-z]+)((\\s)*([A-Z][a-z]+))? \n"; //Nome sobrenome
-		//regex e("[[:w:]]+@[[:w:]]+\.(com.br|br)");//email
-		//regex e("[[:w:]][[:w:]][[:w:]][[:w:]][[:w:]][[:w:]][[:w:]][[:w:]]");//senha de 8 digitos
+		regex e("([A-Z][a-z]+)(\\s)+([A-Z][a-z]+)((\\s)*([A-Z][a-z]+))?"); //Nome sobrenome
+		//regex e("[a-z]+@[a-z]+\.(com.br|br)");//email
+		//regex e("(?=.*[A-Z])(?=.*[0-9])([A-z0-9]){8}");//senha de 8 digitos
 		//regex e("[0-9][0-9][0-9].[0-9][0-9][0-9].[0-9][0-9][0-9]-[0-9][0-9]");//cpf
-		//regex e("[[:digit:]]{2}\\s9[[:digit:]]{8}");//Telefone
+		//regex e("[[:digit:]]{2}\\s9[[:digit:]]{8}");
 		//regex e("(([0-9][0-9]/[0-9][0-9]/[0-9][0-9][0-9][0-9])\\s([0-2][0-9]:[0-5][0-9]:[0-5][0-9]))");// data e hora
 		//regex e("[+—]?([0-9]|.)+");// numeros reais
 		//regex e("(HM|MH)(mm*h|hh*m)");//letra a
@@ -34,3 +33,4 @@ int main()
 
 
 }
+
