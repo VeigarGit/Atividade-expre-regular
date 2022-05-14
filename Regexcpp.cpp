@@ -21,7 +21,6 @@ int main()
 		//regex e("(HM|MH)m(h|m)*h");//letra c
 		//regex e("(HH|MM)(mh|hm)(m|h)(m|h)((mh|hm)|(m|h))*(mh|hm)");//letra d
 		//regex e("(HH|MM)(h|m)*[^mm][^hh]");//letra e
-		//regex e("(HH|MM)()");
 		//regex e("(HH|MM)(h?m+|m*)*h?");//letra f
 		//regex e("(HH|MM){1,3}(h|m)*mmm");
 		getline(cin, str);
