@@ -9,7 +9,7 @@ int main()
 	string str;
 	while (true)
 	{
-		//regex e("([A-Z][a-z]+)(\\s)+([A-Z][a-z]+)((\\s)*([A-Z][a-z]+))?"); //Nome sobrenome
+		regex e("([A-Z][a-z]+)(\\s)+([A-Z][a-z]+)((\\s)*([A-Z][a-z]+))?"); //Nome sobrenome
 		//regex e("[a-z]+@[a-z]+\.(com.br|br)");//email
 		//regex e("(?=.*[A-Z])(?=.*[0-9])([A-z0-9]){8}");//senha de 8 digitos
 		//regex e("[0-9][0-9][0-9].[0-9][0-9][0-9].[0-9][0-9][0-9]-[0-9][0-9]");//cpf
@@ -20,7 +20,8 @@ int main()
 		//regex e("(HM|MH)h?m(h)?(m(h)?m(h)?)*");//letra b
 		//regex e("(HM|MH)m(h|m)*h");//letra c
 		//regex e("(HH|MM)(mh|hm)(m|h)(m|h)((mh|hm)|(m|h))*(mh|hm)");//letra d
-		regex e("(HH|MM)((h|m)*[^mm][^hh]");//letra e
+		//regex e("(HH|MM)(h|m)*[^mm][^hh]");//letra e
+		//regex e("(HH|MM)()");
 		//regex e("(HH|MM)(h?m+|m*)*h?");//letra f
 		//regex e("(HH|MM){1,3}(h|m)*mmm");
 		getline(cin, str);
